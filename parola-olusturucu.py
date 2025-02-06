@@ -1,7 +1,7 @@
 import random
 
 # 1. Adım: Karakter kümesi
-karaterler = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+karakterler = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 
 # 2. Adım: Kullanıcıdan parola uzunluğunu alma
 parola_uzunlugu = int(input("Parolanın uzunluğunu girin: "))
@@ -14,4 +14,4 @@ for i in range(parola_uzunlugu):
     parola += random.choice(karakterler)
 
 # 5. Adım: Sonucu yazdırma
-print("Oluşturduğunuz parola: ", parola)
+print("Oluşturulan parola: ", parola)
